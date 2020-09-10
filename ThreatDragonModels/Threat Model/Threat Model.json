@@ -5,7 +5,11 @@
     "description": "threat model"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "sdedalus"
+      }
+    ],
     "diagrams": [
       {
         "title": "ThreatTest",
