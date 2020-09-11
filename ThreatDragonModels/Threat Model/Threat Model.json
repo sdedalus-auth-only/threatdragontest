@@ -235,7 +235,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Filesystem read",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -262,14 +262,19 @@
               "target": {
                 "id": "fac674db-1376-4514-bf10-e3888a0ee180"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 433,
+                  "y": 373
+                }
+              ],
               "id": "b56cc702-bbf4-4058-beae-f35c5987d67c",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 8",
+                      "text": "Filesystem read",
                       "font-weight": "400",
                       "font-size": "small"
                     }
