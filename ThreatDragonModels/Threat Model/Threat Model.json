@@ -262,12 +262,7 @@
               "target": {
                 "id": "fac674db-1376-4514-bf10-e3888a0ee180"
               },
-              "vertices": [
-                {
-                  "x": 433,
-                  "y": 373
-                }
-              ],
+              "vertices": [],
               "id": "b56cc702-bbf4-4058-beae-f35c5987d67c",
               "labels": [
                 {
@@ -327,16 +322,7 @@
               "target": {
                 "id": "4fdb251e-1cf8-417e-8e61-13dc926cfe56"
               },
-              "vertices": [
-                {
-                  "x": 633,
-                  "y": 249
-                },
-                {
-                  "x": 659,
-                  "y": 247
-                }
-              ],
+              "vertices": [],
               "id": "bc40689f-e5cb-4d83-a4cf-468fe3fa2dd5",
               "labels": [
                 {
