@@ -262,7 +262,12 @@
               "target": {
                 "id": "fac674db-1376-4514-bf10-e3888a0ee180"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 403,
+                  "y": 378
+                }
+              ],
               "id": "b56cc702-bbf4-4058-beae-f35c5987d67c",
               "labels": [
                 {
@@ -322,14 +327,19 @@
               "target": {
                 "id": "4fdb251e-1cf8-417e-8e61-13dc926cfe56"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 624,
+                  "y": 249
+                }
+              ],
               "id": "bc40689f-e5cb-4d83-a4cf-468fe3fa2dd5",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Dadabase\nwrite/update",
+                      "text": "Database\nwrite/update",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -359,7 +369,12 @@
                 "x": 537,
                 "y": 311
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 535,
+                  "y": 323
+                }
+              ],
               "id": "dfd1fb94-6184-4a76-b6bc-09856b58c2c2",
               "z": 12,
               "attrs": {}
@@ -391,10 +406,57 @@
                 "x": 543,
                 "y": 395
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 460,
+                  "y": 396
+                }
+              ],
               "id": "0b23dca8-0cb9-4964-853e-4bc9f13704c1",
               "z": 14,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "fac674db-1376-4514-bf10-e3888a0ee180"
+              },
+              "target": {
+                "id": "5eb7bbdc-a199-416b-9a7c-4dd3dbada5df"
+              },
+              "vertices": [
+                {
+                  "x": 483,
+                  "y": 357
+                }
+              ],
+              "id": "81ef95d1-be99-40eb-bcbd-f4b958e4bd65",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5274022447144778,
+                    "offset": -2.741284522503868
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Filesystem Lookup",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
