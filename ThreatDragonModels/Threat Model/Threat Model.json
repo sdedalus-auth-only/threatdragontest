@@ -78,14 +78,19 @@
               "target": {
                 "id": "fac674db-1376-4514-bf10-e3888a0ee180"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 370,
+                  "y": 157
+                }
+              ],
               "id": "f1402161-5fc4-43eb-b8f4-cb0c1e5825cc",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 2",
+                      "text": "Web Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -94,6 +99,8 @@
               ],
               "z": 3,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -112,14 +119,19 @@
               "target": {
                 "id": "75375372-c576-4b48-a21b-592cb89d147c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 285,
+                  "y": 173
+                }
+              ],
               "id": "13ef09b3-7a01-4769-a8f3-8c3078f1ce1a",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 3",
+                      "text": "Web Response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -128,6 +140,8 @@
               ],
               "z": 4,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -141,12 +155,12 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 262,
-                "y": 166
+                "x": 235,
+                "y": 198
               },
               "target": {
-                "x": 397,
-                "y": 131
+                "x": 439,
+                "y": 89
               },
               "vertices": [],
               "id": "f0ad4fd7-d165-4de9-adec-4d49a8da28c2",
@@ -308,14 +322,23 @@
               "target": {
                 "id": "4fdb251e-1cf8-417e-8e61-13dc926cfe56"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 633,
+                  "y": 249
+                },
+                {
+                  "x": 659,
+                  "y": 247
+                }
+              ],
               "id": "bc40689f-e5cb-4d83-a4cf-468fe3fa2dd5",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Dadabase\nwrite/update",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -324,6 +347,7 @@
               ],
               "z": 11,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -337,8 +361,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 580,
-                "y": 195
+                "x": 520,
+                "y": 191
               },
               "target": {
                 "x": 537,
